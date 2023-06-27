@@ -12,7 +12,7 @@
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
 
-  <form class="formulario">
+  <form class="formulario" id="form"> <!-- Se coloca un id para que se pueda citar en eñ formulario-->
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
@@ -29,7 +29,7 @@
     <input type="submit">
   </form>
 
-  <div>
+  <div id="lista-de-invitados"> <!-- Se usará como contenedor para agregar los elementos de la lista de invitados con el método appendChild()-->
     <h2>Lista de invitados</h2>
 
   </div>
