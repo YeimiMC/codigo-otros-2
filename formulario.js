@@ -21,8 +21,8 @@ formulario.onsubmit = function (e) {
 
   //Para comprobar que se están obteniendo correctamente los valores hacemos un console.log que se podrá comentar posterior a ser comprobado.
 
-  console.log(nombre, edad);
-  console.log(nacionalidad);
+  //console.log(nombre, edad);
+  //console.log(nacionalidad);
 
   //Se realizarán los cambios como se pusieron las variables para agregar la clase error a cada uno
   if (nombre.length === 0) {
